@@ -1,0 +1,13 @@
+{
+  "refresh-time": 60,
+  "actions": [
+    "auto-close-issues": [
+      {
+        "owner": "klarkc",
+        "repo": "projects-service",
+        "project": "Test Project",
+        "column": "Done"
+      }
+    ]
+  ]
+}
