@@ -1,6 +1,6 @@
 {
   "refresh-time": 5,
-  "actions": [
+  "actions": {
     "auto-close-issues": [
       {
         "owner": "klarkc",
@@ -9,5 +9,5 @@
         "column": "Done"
       }
     ]
-  ]
+  }
 }
