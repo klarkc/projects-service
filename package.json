@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/klarkc/projects-service#readme",
   "dependencies": {
-    "github-api": "github:klarkc/github#master"
+    "github-api": "github:klarkc/github#master",
+    "jsonfile": "^2.4.0"
   }
 }

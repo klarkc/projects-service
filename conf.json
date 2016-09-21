@@ -1,5 +1,5 @@
 {
-  "refresh-time": 60,
+  "refresh-time": 5,
   "actions": [
     "auto-close-issues": [
       {
