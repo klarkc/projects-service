@@ -1,0 +1,25 @@
+{
+  "name": "projects-service",
+  "version": "1.0.0",
+  "description": "Just a NodeJS microservice to do actions based on GitHub Projects API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klarkc/projects-service.git"
+  },
+  "keywords": [
+    "github",
+    "projects",
+    "service",
+    "webhooks"
+  ],
+  "author": "Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klarkc/projects-service/issues"
+  },
+  "homepage": "https://github.com/klarkc/projects-service#readme"
+}
