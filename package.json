@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/klarkc/projects-service/issues"
   },
-  "homepage": "https://github.com/klarkc/projects-service#readme"
+  "homepage": "https://github.com/klarkc/projects-service#readme",
+  "dependencies": {
+    "github-api": "github:klarkc/github#master"
+  }
 }
