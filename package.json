@@ -28,7 +28,7 @@
     ]
   },
   "dependencies": {
-    "github-api": "github:klarkc/github#master",
+    "github-api": "^2.3.0",
     "jsonfile": "^2.4.0"
   },
   "devDependencies": {
