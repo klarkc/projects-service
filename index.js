@@ -1,10 +1,13 @@
 let GitHub = require('github-api');
 let loadJson = require('jsonfile').readFileSync;
+let timer = require('./lib/timer.js');
 let conf = loadJson('./conf.json');
-
 let api = new GitHub();
-let interval = conf["refresh-time"] * 1000;
 
-console.log("Welcome, the interval is", interval, "ms");
+let autoCloseIssues = require('./lib/auto-close-issues')(api);
 
-setInterval(require('./lib/auto-close-issues')(api), interval);
+let interval = conf["refresh-time"];
+
+console.log("\nWelcome! The refresh interval is", interval, "s");
+
+timer(autoCloseIssues, conf.actions["auto-close-issues"], interval);

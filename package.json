@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "github-api": "^2.3.0",
-    "jsonfile": "^2.4.0"
+    "jsonfile": "^2.4.0",
+    "repeat": "0.0.6"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
