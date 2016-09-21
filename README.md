@@ -12,3 +12,5 @@ Change your `conf.json` as below.
     * `repo`: Repository name
     * `project`: Project name
     * `column`: Column name
+
+Install dependencies and execute: `npm install && npm start`

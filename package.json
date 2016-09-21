@@ -4,7 +4,8 @@
   "description": "Just a NodeJS microservice to do actions based on GitHub Projects API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/babel-node index.js"
   },
   "repository": {
     "type": "git",
