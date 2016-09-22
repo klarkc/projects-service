@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "github-api": "^2.3.0",
+    "github-api": "github:klarkc/github#build",
     "jsonfile": "^2.4.0"
   },
   "devDependencies": {
