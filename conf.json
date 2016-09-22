@@ -1,5 +1,11 @@
 {
   "refresh-time": 5,
+  "log": {
+    "server": "info",
+    "auto-close-issues": "info",
+    "timer": "info",
+    "colorize": true
+  },
   "actions": {
     "auto-close-issues": [
       {
