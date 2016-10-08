@@ -1,3 +1,13 @@
 language: node_js
 node_js:
-  - "node"
+- node
+before_script:
+- npm run lint
+script:
+- npm run test
+after_success:
+- npm run coverage
+- npm run codeclimate
+env:
+  global:
+    secure: Kr27Pm1RDTLy1e0M17omGOsk1Nm6s8W8R8hm9FOf11hmN8OonQj17BQIByZFDdBuXFTrSwOtijMNTLLLCCb33qJtiqtJV0LjintCJej18TfDZhvyeNv8GBxwVZqH6UOKUzPOoWouWrkyohu7LUTsB8t3gcwfisHBbjXw149ltolbZRIovKs+7SC6BpcKzM+q9wN7d0RAMPYBadWT4Wunfn0EPaoXNgYk5wkw31JeItvFva3Yk5ydCao3wP61VNqwIX8rAKt9NpU03OoPzbu7aK6Y51N2nCEKNXtUcqNvA+9T7b0hJ14rh/dmpKeZPFrt/ve+nEcrsyp8hFcjL7HsdH4sJieaPfuH0L+4YiyI7rNoZ81AosMg9YTHoV7Nm/n9+9vA6U+lv1d/g8osMkEmOcUBQY0/j2wxS0IHi05C0alc34uz9sKMoaXYEG16T2x0Iq9NOjkTsZCmPTPihEtGqnj6Nfb8jm0Z85S5wutOIGickd3ZioOrq2d2/ITJUl5JzEHyv0PRBEm/bco1c5yh/IPs0JgHzsyJdSL4P8RyOBL2l92Islta9iiTMPofLRQSWrhlLG2FAH7yo41kRAm+08FzGMvEU9uHvt6k5May74b6Vu92vZycRXDFNJmFqmVVfCKsTEg5rvg8tac5FCDpDkD6V7dAknv7oS4GSmr7pZM=
