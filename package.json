@@ -4,7 +4,7 @@
   "description": "Just a NodeJS microservice to do actions based on GitHub Projects API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --slow 200 --compilers js:babel-core/register test/**/*.test.js",
+    "test": "mocha --slow 200 --compilers js:babel-core/register test/{,**/}*.test.js",
     "start": "babel-node index.js",
     "lint": "eslint **/*.js",
     "coverage": "istanbul cover _mocha -- test/**/*.test.js",
