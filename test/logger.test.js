@@ -1,5 +1,6 @@
 const winston = require('winston');
 const assert = require('chai').assert;
+const setupLogger = require('../lib/logger.js');
 
 describe('logger.js module behavior', function() {
   let conf, defLogger;
@@ -12,7 +13,7 @@ describe('logger.js module behavior', function() {
       "colorize": true
     };
 
-    defLogger = require('../lib/logger.js')(conf);
+    defLogger = setupLogger(conf);
   });
 
   it('should create a server logger', function() {
