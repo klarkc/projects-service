@@ -12,7 +12,7 @@ describe('logger.js module behavior', function() {
       "timer": "info",
       "colorize": true
     };
-
+    winston.loggers = new winston.Container();
     defLogger = setupLogger(conf);
   });
 
