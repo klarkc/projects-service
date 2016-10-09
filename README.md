@@ -7,15 +7,15 @@
 [![node version][node-image]][node-url]
 
 
-[travis-image]: https://img.shields.io/travis/klarkc/projects-service/master.svg?maxAge=2592000
+[travis-image]: https://img.shields.io/travis/klarkc/projects-service/master.svg?maxAge=7200
 [travis-url]: https://travis-ci.org/klarkc/projects-service
-[cc-image]: https://img.shields.io/codeclimate/github/klarkc/projects-service.svg?maxAge=2592000
+[cc-image]: https://img.shields.io/codeclimate/github/klarkc/projects-service.svg?maxAge=7200
 [cc-url]: https://codeclimate.com/github/klarkc/projects-service
-[cover-image]: https://img.shields.io/codeclimate/coverage/github/klarkc/projects-service.svg?maxAge=2592000
+[cover-image]: https://img.shields.io/codeclimate/coverage/github/klarkc/projects-service.svg?maxAge=7200
 [cover-url]: https://codeclimate.com/github/klarkc/projects-service/coverage
-[david-image]: https://img.shields.io/david/klarkc/projects-service.svg?maxAge=2592000
+[david-image]: https://img.shields.io/david/klarkc/projects-service.svg?maxAge=7200
 [david-url]: https://david-dm.org/klarkc/projects-service
-[node-image]: https://img.shields.io/badge/node.js-%3E=_6-green.svg?maxAge=2592000
+[node-image]: https://img.shields.io/badge/node.js-%3E=_6-green.svg?maxAge=7200
 [node-url]: http://nodejs.org/download/
 
 Just a NodeJS micro service to take actions based on GitHub Projects API
